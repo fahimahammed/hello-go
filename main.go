@@ -1,15 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hello-go/structs"
+)
 
 func main() {
-	var fullName, country string
-	var age int
-
-	fullName = "Fahim Ahammed Firoz"
-	country = "Bangladesh"
-	age = 23
-
-	fmt.Println("Hello, World!")
-	fmt.Println(fullName, country, age)
+	fmt.Println("Go Structs Practice")
+	structs.DemoMethods()
+	structs.DemoPointers()
+	structs.DemoEmbedding()
+	structs.DemoAnonymous()
 }
