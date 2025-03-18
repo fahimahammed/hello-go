@@ -1,7 +1,7 @@
 package main
 
 import (
-	"hello-go/concurrency"
+	"hello-go/api"
 )
 
 func main() {
@@ -15,5 +15,15 @@ func main() {
 	// maps.DemoMaps()
 
 	// concurrency.DemoGoroutines()
-	concurrency.DemoChannels()
+	// concurrency.DemoChannels()
+
+	// files.WriteToFile("example.txt", "Hello, Go!")
+	// files.ReadFromFile("example.txt")
+
+	// jsonhandler.WriteJson("person.json", jsonhandler.Person{Name: "John Doe", Age: 30, Email: "johndoe@example.com"})
+	// jsonhandler.ReadJson("person.json")
+
+	api.DemoApi()
+	api.FetchUser(2)
+	api.CreatePost("New Post", "This is the body of the new post.", 1)
 }
