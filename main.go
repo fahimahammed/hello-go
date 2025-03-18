@@ -11,4 +11,5 @@ func main() {
 	structs.DemoPointers()
 	structs.DemoEmbedding()
 	structs.DemoAnonymous()
+	structs.DemoSlices()
 }
