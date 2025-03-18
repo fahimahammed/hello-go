@@ -1,16 +1,19 @@
 package main
 
 import (
-	"fmt"
-	"hello-go/maps"
+	"hello-go/concurrency"
 )
 
 func main() {
-	fmt.Println("Go Structs Practice")
+	// fmt.Println("Go Structs Practice")
 	// structs.DemoMethods()
 	// structs.DemoPointers()
 	// structs.DemoEmbedding()
 	// structs.DemoAnonymous()
 	// structs.DemoSlices()
-	maps.DemoMaps()
+
+	// maps.DemoMaps()
+
+	// concurrency.DemoGoroutines()
+	concurrency.DemoChannels()
 }
